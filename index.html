@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Assignment 5</title>
+</head>
+
+<body>
+  <center>
+    <table border="2px" width="30%" cellspacing="3px">
+      <form action="https://giphy.com/gifs/mr-bean-4KLv24CPUoZ0I/fullscreen">
+        <tr>
+          <td colspan="3">
+            <center><strong>Pizza Shop</strong></center>
+          </td>
+        </tr>
+
+        <tr>
+          <td>Name</td>
+          <td><input type="text" required></td>
+        </tr>
+
+        <tr>
+          <td>Pizza Topping</td>
+          <td>
+            <input type="radio" name="Pizza Topping" id="Supreme" required><label for="Supreme">Supreme</label> <br />
+            <input type="radio" name="Pizza Topping" id="Vegetarian" required><label for="Vegetarian">Vegetarian</label>
+            <br />
+            <input type="radio" name="Pizza Topping" id="Hawaiian" required><label for="Hawaiian">Hawaiian</label>
+          </td>
+        </tr>
+
+        <tr>
+          <td>Pizza Sauce</td>
+          <td>
+            <select required>
+              <option disabled selected>Select</option>
+              <option>Tomato</option>
+              <option>Garlic</option>
+            </select>
+          </td>
+        </tr>
+
+        <tr>
+          <td>Optional Extras</td>
+          <td>
+            <input type="checkbox" name="Extras" id="ExtraCheese"><label for="ExtraCheese">Extra Cheese</label>
+            <input type="checkbox" name="Extras" id="GlutenFreeBase"><label for="GlutenFreeBase">Gluten Free
+              Base</label>
+          </td>
+        </tr>
+
+        <tr>
+          <td colspan="2">
+            Delivery Instructions: <br /><textarea cols="70" rows="3"></textarea>
+          </td>
+        </tr>
+
+        <tr>
+          <td colspan="2">
+            <button type="submit">Send my order</button>
+          </td>
+        </tr>
+      </form>
+    </table>
+  </center>
+</body>
+
+</html>
